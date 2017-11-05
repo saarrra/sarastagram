@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B2C3DC41F6E4E6E00B13AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C3DC31F6E4E6E00B13AC8 /* AppDelegate.swift */; };
-		8B2C3DC61F6E4E6E00B13AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C3DC51F6E4E6E00B13AC8 /* ViewController.swift */; };
+		8B2C3DC61F6E4E6E00B13AC8 /*   .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C3DC51F6E4E6E00B13AC8 /*   .swift */; };
 		8B2C3DC91F6E4E6E00B13AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C3DC71F6E4E6E00B13AC8 /* Main.storyboard */; };
 		8B2C3DCB1F6E4E6E00B13AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C3DCA1F6E4E6E00B13AC8 /* Assets.xcassets */; };
 		8B2C3DCE1F6E4E6F00B13AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C3DCC1F6E4E6F00B13AC8 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		8B2C3DC01F6E4E6E00B13AC8 /* sarastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sarastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2C3DC31F6E4E6E00B13AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B2C3DC51F6E4E6E00B13AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B2C3DC51F6E4E6E00B13AC8 /*   .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "  .swift"; sourceTree = "<group>"; };
 		8B2C3DC81F6E4E6E00B13AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B2C3DCA1F6E4E6E00B13AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2C3DCD1F6E4E6F00B13AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				8B2C3DC31F6E4E6E00B13AC8 /* AppDelegate.swift */,
-				8B2C3DC51F6E4E6E00B13AC8 /* ViewController.swift */,
+				8B2C3DC51F6E4E6E00B13AC8 /*   .swift */,
 				8B2C3DC71F6E4E6E00B13AC8 /* Main.storyboard */,
 				8B2C3DCA1F6E4E6E00B13AC8 /* Assets.xcassets */,
 				8B2C3DCC1F6E4E6F00B13AC8 /* LaunchScreen.storyboard */,
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					8B2C3DBF1F6E4E6E00B13AC8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J33EZZC6CC;
 						ProvisioningStyle = Automatic;
 					};
 					8B2C3DD31F6E4E6F00B13AC8 = {
@@ -259,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2C3DC61F6E4E6E00B13AC8 /* ViewController.swift in Sources */,
+				8B2C3DC61F6E4E6E00B13AC8 /*   .swift in Sources */,
 				8B2C3DC41F6E4E6E00B13AC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33EZZC6CC;
 				INFOPLIST_FILE = sarastagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sara.sarastagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33EZZC6CC;
 				INFOPLIST_FILE = sarastagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sara.sarastagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +510,7 @@
 				8B2C3DEA1F6E4E6F00B13AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2C3DEB1F6E4E6F00B13AC8 /* Build configuration list for PBXNativeTarget "sarastagramTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				8B2C3DED1F6E4E6F00B13AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2C3DEE1F6E4E6F00B13AC8 /* Build configuration list for PBXNativeTarget "sarastagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				8B2C3DF01F6E4E6F00B13AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
